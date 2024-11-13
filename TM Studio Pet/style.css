@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'disney';
+    src: url(./assets/Cream\ Beige.otf);
+    src: url(./assets/Cream\ Beige.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    position: static;
+}
+
+header a {
+    color: white;
+    font-weight: 700;
+}
+
+.img-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    gap: 100rem;
+    font-size: 1.2rem;
+}
+
+header a {
+    margin-left: 3rem;
+    
+}
+
+h1{
+    font-family: 'disney';
+    font-size: 4rem;
+    color: orange;
+}
+
+
+.navegacao{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'disney';
+}
+
+.navegacao img {
+    height: 8rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+    height: auto;
+}
+
+/* ******************************************************* */
+
+#inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    align-items: center;
+    gap: 20rem;
+}
+
+#inicio h2{
+    font-family: 'disney';
+    font-size: 5rem;
+    color: black;
+}
+
+.descrição{
+    width: 55rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.descrição p {
+    padding-top: 3rem;
+}
+
+/* ********************************************************* */
+
+#categorias{
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 5rem;
+    gap: 20rem;
+}
+
+#categorias h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'disney';
+    font-size: 5rem;
+    color: orange;
+}
+
+.produtos{
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+/* ******************************************************* */
+
+#serviços{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    align-items: center;
+    gap: 20rem;
+}
+
+#serviços h2{
+    font-family: 'disney';
+    font-size: 5rem;
+    color: white;
+}
+
+.descrição-serviços{
+    width: 55rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.descrição-serviços p {
+    color: orange;
+    padding-top: 3rem;
+}
+
+.mapa{
+    border-radius: 2rem;
+}
+
